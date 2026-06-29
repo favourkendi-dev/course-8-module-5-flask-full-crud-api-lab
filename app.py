@@ -10,6 +10,7 @@ class Event:
 
     def to_dict(self):
         return {"id": self.id, "title": self.title}
+    
 
 # In-memory "database"
 events = [
